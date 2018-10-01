@@ -11,9 +11,11 @@ public class U1L04 {
 			String input;
 			int userNum = -1;
 			do {
-				input = JOptionPane.showMessageDialog(null, "Please enter a number in between 1 and 100.");
+				input = JOptionPane.showInputDialog(null, "Please enter a number in between 1 and 100.");
 				userNum = Integer.parseInt(input);
 			} while (userNum > 100 || userNum < 1);
+			
+			
 			
 			
 			/* things I have to do:
